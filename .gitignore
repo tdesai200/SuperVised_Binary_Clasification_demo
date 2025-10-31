@@ -1,0 +1,2 @@
+venv/lib/
+#pip freeze > requirements.txt
