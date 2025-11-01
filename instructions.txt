@@ -1,0 +1,39 @@
+Instructions to Run Binary Classification Demo
+===========================================
+
+1. Setup Python Environment
+-------------------------
+- Make sure Python 3.x is installed on your system (this tested with 3.14)
+
+2. Install Required Packages
+--------------------------
+Run this command to install all required packages:
+pip install pandas scikit-learn matplotlib seaborn imbalanced-learn
+
+3. Prepare Data
+--------------
+Make sure the file 'us_catering_orders.csv' is in the same directory as binary_classification_demo.py
+
+4. Run the Demo
+--------------
+Run this command:
+python binary_classification_demo.py
+
+5. Expected Output
+----------------
+The demo will:
+- Load the catering orders dataset
+- Show dataset information and class distribution
+- Train a decision tree model
+- Display evaluation metrics (accuracy, confusion matrix)
+- Show predictions for sample use cases
+- Generate a confusion matrix
+
+Note: If you see any plots, close them to allow the program to continue executing all steps.
+
+Troubleshooting
+--------------
+If you encounter any errors:
+1. Verify all required packages are installed
+2. Ensure us_catering_orders.csv is in the correct location
+3. Check that you have write permissions in the directory (for plot generation)
