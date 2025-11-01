@@ -45,7 +45,7 @@ print(class_dist)
 # 5. Split Train/Test Data
 # -----------------------------
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.25, random_state=42, stratify=y
+    X, y, test_size=0.35, random_state=52, stratify=y
 )
 print(X_train.shape, X_test.shape)
 # -----------------------------
