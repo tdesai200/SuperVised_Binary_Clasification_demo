@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 # 2. Load Dataset
 # -----------------------------
 print("Loading dataset...")
-df = pd.read_csv("us_catering_orders.csv")
+df = pd.read_csv("data/us_catering_orders.csv")
 
 print("Dataset Loaded Successfully")
 print(f"Shape: {df.shape}")
